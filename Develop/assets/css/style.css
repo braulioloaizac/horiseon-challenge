@@ -1,3 +1,4 @@
+/* Universal selector */
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
@@ -5,10 +6,22 @@
     margin: 0;
 }
 
+/* Overall styles */
 body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------  */
+/* Header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +54,8 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* ------------------------------------------------------------------------------------------------ */
+/* Hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +65,8 @@ p {
     background-position: center;
 }
 
+/* -------------------------------------------------------------------------------------------------*/
+/* Content section  */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +83,8 @@ p {
     margin-left: 20px;
 }
 
+/* ------------------------------------------------------------------------------------------------ */
+/* Benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,12 +95,12 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead,.benefit-brand,.benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3,.benefit-brand h3, .benefit-cost h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -101,7 +111,10 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+
+/* ----------------------------------------------------------------------------------------------- */
+/* Services section */
+.service {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -110,15 +123,17 @@ p {
 }
 
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.service img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2,.online-reputation-management h2,.social-media-marketing h2 {
+.service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* ----------------------------------------------------------------------------------------------- */
+/* Footer section */
 .footer {
     padding: 30px;
     clear: both;
