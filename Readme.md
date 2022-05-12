@@ -1,0 +1,2 @@
+Week 1 Challenge
+During this challenge i had to apply the html semantic tags to make the code more clear, such as nav, section and aside, i had to compact some redundant functions and apply global styles that were repiting along the files, i had to add alt tags for accesibility too. 
